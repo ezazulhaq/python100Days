@@ -9,6 +9,8 @@ print("2. Paper")
 print("3. Sisssors")
 print("4. Exit")
 
+desc_win = "You win"
+
 while True:
     user_input = int(input("Enter your choice: "))
     if user_input == 4:
@@ -24,10 +26,10 @@ while True:
     if user_input == computer_choice:
         print("Tie")
     elif user_input == 1 and computer_choice == 3:
-        print("You win")
+        print(desc_win)
     elif user_input == 2 and computer_choice == 1:
-        print("You win")
+        print(desc_win)
     elif user_input == 3 and computer_choice == 2:
-        print("You win")
+        print(desc_win)
     else:
         print("You lose")
