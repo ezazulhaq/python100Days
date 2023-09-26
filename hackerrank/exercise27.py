@@ -12,3 +12,12 @@ The first line contains the space separated values of x and k.
 The second line contains the polynomial P.
 """
 
+def verify_polynomial(x, k, P):
+    if eval(P) == k:
+        return True
+    else:
+        return False
+
+x, k = map(int, input().split())
+P = input().strip()
+print(verify_polynomial(x, k, P))
