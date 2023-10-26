@@ -5,6 +5,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+.replit
 
 # IDEs and editors
 .idea/
@@ -19,5 +20,8 @@
 **/__pycache__
 bin
 lib
+lib64
 include
 pyvenv.cfg
+poetry.lock
+pyproject.toml
